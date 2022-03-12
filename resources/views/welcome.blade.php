@@ -21,6 +21,6 @@
         </style>
     </head>
     <body class="antialiased">
-    <h1><?php env('app_name') ?></h1>
+    <h1><?php echo env('app_name'); ?></h1>
     </body>
 </html>
